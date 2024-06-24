@@ -1,0 +1,158 @@
+Плагины:
+After Dark
+Apollo GraphQL
+Backticks
+Code Runner
+Color the tag name（タグに色つけ太郎）
+Composer
+eCSStractor for VSCode
+ESLint
+GraphQL: Language Feature Support
+Import Cost
+IntelliCode
+IntelliPHP - AI Autocomplete for PHP
+JavaScript (ES6) code snippets
+Laravel Blade Snippets
+Live Server (Five Server)
+Material Icon Theme
+Path Autocomplete
+Path Intellisense
+Prettier - Code formatter
+Prisma
+Russian Language Pack for Visual Studio Code
+Sass (.sass only)
+Svg Preview
+Tailwind CSS IntelliSense
+VSCode Color Picker
+vscode-icons
+Vue VSCode Snippets
+
+Настройки:
+
+{
+	"editor.links": false,
+	// Остальные ваши настройки
+	"window.openFilesInNewWindow": "off",
+	"editor.tabSize": 2,
+	"editor.insertSpaces": false,
+	"editor.smoothScrolling": true,
+	"editor.detectIndentation": true,
+	"editor.suggestSelection": "first",
+	"editor.multiCursorModifier": "ctrlCmd",
+	"editor.fontSize": 18,
+	"editor.fontLigatures": true,
+	"editor.wordWrap": "bounded",
+	"editor.wrappingIndent": "same",
+	"editor.wordWrapColumn": 80,
+	"editor.scrollBeyondLastLine": true,
+	"editor.linkedEditing": true,
+	"html.autoClosingTags": true,
+	"javascript.autoClosingTags": true,
+	"typescript.autoClosingTags": true,
+	"editor.renderControlCharacters": false,
+	"editor.unicodeHighlight.ambiguousCharacters": false,
+	"editor.quickSuggestionsDelay": 0,
+	"html.completion.attributeDefaultValue": "singlequotes",
+	"editor.bracketPairColorization.enabled": false,
+	"editor.glyphMargin": false,
+	"window.density.editorTabHeight": "compact",
+	"workbench.activityBar.location": "top",
+	"editor.accessibilitySupport": "off",
+	"window.commandCenter": false,
+	"workbench.layoutControl.enabled": false,
+	"window.customTitleBarVisibility": "auto",
+	"editor.cursorBlinking": "expand",
+	"editor.cursorStyle": "line-thin",
+	"editor.cursorSmoothCaretAnimation": "explicit",
+	"editor.tokenColorCustomizations": {
+			"textMateRules": [
+					{
+							"scope": [
+									"comment",
+									"entity.name.type.class",
+									"keyword",
+									"constant",
+									"storage.modifier",
+									"storage.type.class.js"
+							],
+							"settings": {
+									"fontStyle": "italic"
+							}
+					},
+					{
+							"scope": [
+									"invalid",
+									"keyword.operator",
+									"constant.numeric.css",
+									"keyword.other.unit.px.css",
+									"constant.numeric.decimal.js",
+									"constant.numeric.json"
+							],
+							"settings": {
+									"fontStyle": ""
+							}
+					}
+			]
+	},
+	"terminal.integrated.tabs.enabled": false,
+	"explorer.confirmDelete": false,
+	"explorer.compactFolders": false,
+	"explorer.confirmDragAndDrop": false,
+	"workbench.editor.tabSizing": "shrink",
+	"workbench.startupEditor": "newUntitledFile",
+	"debug.toolBarLocation": "hidden",
+	"debug.focusWindowOnBreak": false,
+	"debug.showInlineBreakpointCandidates": false,
+	"debug.showBreakpointsInOverviewRuler": false,
+	"emmet.includeLanguages": {
+			"blade": "html",
+			"javascript": "javascriptreact"
+	},
+	"emmet.triggerExpansionOnTab": true,
+	"prettier.semi": false,
+	"prettier.useTabs": true,
+	"editor.formatOnSave": true,
+	"prettier.singleQuote": false,
+	"prettier.jsxSingleQuote": false,
+	"editor.codeActionsOnSave": {
+			"source.organizeImports": "explicit"
+	},
+	"[prisma]": {
+			"editor.defaultFormatter": "Prisma.prisma"
+	},
+	"prettier.arrowParens": "avoid",
+	"editor.inlineSuggest.enabled": true,
+	"[php]": {
+			"editor.defaultFormatter": "DEVSENSE.phptools-vscode"
+	},
+	"[blade]": {
+			"editor.defaultFormatter": "onecentlin.laravel-blade"
+	},
+	"[javascript]": {
+			"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescript]": {
+			"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"typescript.preferences.quoteStyle": "single",
+	"javascript.preferences.quoteStyle": "single",
+	"javascript.format.semicolons": "remove",
+	"typescript.format.semicolons": "remove",
+	"js/ts.implicitProjectConfig.experimentalDecorators": true,
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.colorTheme": "After Dark",
+	"files.autoSave": "onFocusChange",
+	"breadcrumbs.enabled": false,
+	"[html]": {
+			"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[json]": {
+			"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[scss]": {
+			"editor.defaultFormatter": "esbenp.prettier-vscode"
+	}
+}
+
