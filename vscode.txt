@@ -31,7 +31,6 @@ Vue VSCode Snippets
 
 {
 	"editor.links": false,
-	// Остальные ваши настройки
 	"window.openFilesInNewWindow": "off",
 	"editor.tabSize": 2,
 	"editor.insertSpaces": false,
@@ -65,34 +64,34 @@ Vue VSCode Snippets
 	"editor.cursorStyle": "line-thin",
 	"editor.cursorSmoothCaretAnimation": "explicit",
 	"editor.tokenColorCustomizations": {
-			"textMateRules": [
-					{
-							"scope": [
-									"comment",
-									"entity.name.type.class",
-									"keyword",
-									"constant",
-									"storage.modifier",
-									"storage.type.class.js"
-							],
-							"settings": {
-									"fontStyle": "italic"
-							}
-					},
-					{
-							"scope": [
-									"invalid",
-									"keyword.operator",
-									"constant.numeric.css",
-									"keyword.other.unit.px.css",
-									"constant.numeric.decimal.js",
-									"constant.numeric.json"
-							],
-							"settings": {
-									"fontStyle": ""
-							}
-					}
-			]
+		"textMateRules": [
+			{
+				"scope": [
+					"comment",
+					"entity.name.type.class",
+					"keyword",
+					"constant",
+					"storage.modifier",
+					"storage.type.class.js"
+				],
+				"settings": {
+					"fontStyle": "italic"
+				}
+			},
+			{
+				"scope": [
+					"invalid",
+					"keyword.operator",
+					"constant.numeric.css",
+					"keyword.other.unit.px.css",
+					"constant.numeric.decimal.js",
+					"constant.numeric.json"
+				],
+				"settings": {
+					"fontStyle": ""
+				}
+			}
+		]
 	},
 	"terminal.integrated.tabs.enabled": false,
 	"explorer.confirmDelete": false,
@@ -105,8 +104,8 @@ Vue VSCode Snippets
 	"debug.showInlineBreakpointCandidates": false,
 	"debug.showBreakpointsInOverviewRuler": false,
 	"emmet.includeLanguages": {
-			"blade": "html",
-			"javascript": "javascriptreact"
+		"blade": "html",
+		"javascript": "javascriptreact"
 	},
 	"emmet.triggerExpansionOnTab": true,
 	"prettier.semi": false,
@@ -114,25 +113,23 @@ Vue VSCode Snippets
 	"editor.formatOnSave": true,
 	"prettier.singleQuote": false,
 	"prettier.jsxSingleQuote": false,
-	"editor.codeActionsOnSave": {
-			"source.organizeImports": "explicit"
-	},
+
 	"[prisma]": {
-			"editor.defaultFormatter": "Prisma.prisma"
+		"editor.defaultFormatter": "Prisma.prisma"
 	},
 	"prettier.arrowParens": "avoid",
 	"editor.inlineSuggest.enabled": true,
 	"[php]": {
-			"editor.defaultFormatter": "DEVSENSE.phptools-vscode"
+		"editor.defaultFormatter": "DEVSENSE.phptools-vscode"
 	},
 	"[blade]": {
-			"editor.defaultFormatter": "onecentlin.laravel-blade"
+		"editor.defaultFormatter": "onecentlin.laravel-blade"
 	},
 	"[javascript]": {
-			"editor.defaultFormatter": "esbenp.prettier-vscode"
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"[typescript]": {
-			"editor.defaultFormatter": "esbenp.prettier-vscode"
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"javascript.updateImportsOnFileMove.enabled": "always",
 	"typescript.updateImportsOnFileMove.enabled": "always",
@@ -146,18 +143,29 @@ Vue VSCode Snippets
 	"files.autoSave": "onFocusChange",
 	"breadcrumbs.enabled": false,
 	"[html]": {
-			"editor.defaultFormatter": "esbenp.prettier-vscode"
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"[json]": {
-			"editor.defaultFormatter": "esbenp.prettier-vscode"
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"[scss]": {
-			"editor.defaultFormatter": "esbenp.prettier-vscode"
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
-"path-autocomplete.pathMappings": {
+	"terminal.integrated.persistentSessionReviveProcess": "never",
+	"terminal.integrated.enablePersistentSessions": false,
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[snippets]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"path-autocomplete.pathMappings": {
 		"@img": "${folder}/src/assets/templates/img",
 		"@scss": "${folder}/src/assets/templates/scss",
 		"@js": "${folder}/src/assets/templates/js"
-	}
+	},
+	"php.validate.executablePath": "",
+	"editor.stickyScroll.enabled": false
 }
+
 
