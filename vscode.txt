@@ -153,6 +153,11 @@ Vue VSCode Snippets
 	},
 	"[scss]": {
 			"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+"path-autocomplete.pathMappings": {
+		"@img": "${folder}/src/assets/templates/img",
+		"@scss": "${folder}/src/assets/templates/scss",
+		"@js": "${folder}/src/assets/templates/js"
 	}
 }
 
