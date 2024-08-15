@@ -38,7 +38,7 @@ Vue VSCode Snippets
 	"editor.detectIndentation": true,
 	"editor.suggestSelection": "first",
 	"editor.multiCursorModifier": "ctrlCmd",
-	"editor.fontSize": 18,
+	"editor.fontSize": 16,
 	"editor.fontLigatures": true,
 	"editor.wordWrap": "bounded",
 	"editor.wrappingIndent": "same",
@@ -138,7 +138,6 @@ Vue VSCode Snippets
 	"javascript.format.semicolons": "remove",
 	"typescript.format.semicolons": "remove",
 	"js/ts.implicitProjectConfig.experimentalDecorators": true,
-	"workbench.iconTheme": "material-icon-theme",
 	"workbench.colorTheme": "After Dark",
 	"files.autoSave": "onFocusChange",
 	"breadcrumbs.enabled": false,
@@ -165,7 +164,8 @@ Vue VSCode Snippets
 		"@js": "${folder}/src/assets/templates/js"
 	},
 	"php.validate.executablePath": "",
-	"editor.stickyScroll.enabled": false
+	"editor.stickyScroll.enabled": false,
+	"workbench.iconTheme": "vscode-icons"
 }
 
 
