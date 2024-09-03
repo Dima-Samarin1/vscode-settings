@@ -26,6 +26,7 @@ Tailwind CSS IntelliSense
 VSCode Color Picker
 vscode-icons
 Vue VSCode Snippets
+Tabnine
 
 Настройки:
 
