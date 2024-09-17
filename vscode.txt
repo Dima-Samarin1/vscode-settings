@@ -7,7 +7,6 @@ Color the tag name（タグに色つけ太郎）
 Composer
 eCSStractor for VSCode
 ESLint
-GraphQL: Language Feature Support
 Import Cost
 IntelliCode
 IntelliPHP - AI Autocomplete for PHP
