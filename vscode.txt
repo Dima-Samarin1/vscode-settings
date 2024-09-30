@@ -165,7 +165,9 @@ Tabnine
 	},
 	"php.validate.executablePath": "",
 	"editor.stickyScroll.enabled": false,
-	"workbench.iconTheme": "vscode-icons"
+	"workbench.iconTheme": "vscode-icons",
+	"window.dialogStyle": "custom",
+	"window.titleBarStyle": "custom"
 }
 
 
