@@ -30,6 +30,7 @@ Tabnine
 Настройки:
 
 {
+	"workbench.colorTheme": "Apollo Midnight",
 	"editor.links": false,
 	"window.openFilesInNewWindow": "off",
 	"editor.tabSize": 2,
@@ -119,12 +120,7 @@ Tabnine
 	},
 	"prettier.arrowParens": "avoid",
 	"editor.inlineSuggest.enabled": true,
-	"[php]": {
-		"editor.defaultFormatter": "DEVSENSE.phptools-vscode"
-	},
-	"[blade]": {
-		"editor.defaultFormatter": "onecentlin.laravel-blade"
-	},
+
 	"[javascript]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
@@ -138,7 +134,6 @@ Tabnine
 	"javascript.format.semicolons": "remove",
 	"typescript.format.semicolons": "remove",
 	"js/ts.implicitProjectConfig.experimentalDecorators": true,
-	"workbench.colorTheme": "After Dark",
 	"files.autoSave": "onFocusChange",
 	"breadcrumbs.enabled": false,
 	"[html]": {
@@ -167,7 +162,9 @@ Tabnine
 	"editor.stickyScroll.enabled": false,
 	"workbench.iconTheme": "vscode-icons",
 	"window.dialogStyle": "custom",
-	"window.titleBarStyle": "custom"
+	"window.titleBarStyle": "custom",
+	"tabnine.experimentalAutoImports": true,
 }
+
 
 
