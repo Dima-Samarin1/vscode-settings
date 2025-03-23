@@ -164,6 +164,10 @@ Tabnine
 	"window.dialogStyle": "custom",
 	"window.titleBarStyle": "custom",
 	"tabnine.experimentalAutoImports": true,
+"workbench.editorAssociations": {
+  "*.svg": "default"
+}
+
 }
 
 
